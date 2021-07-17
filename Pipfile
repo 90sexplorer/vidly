@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pypdf2 = "*"
+django = "==2.1"
+django-tastypie = "==0.14.2"
+heroku = "*"
+gunicorn = "*"
+whitenoise = "*"
+pylint-django = "*"
+
+[dev-packages]
+autopep8 = "*"
+
+[requires]
+python_version = "3.9"
